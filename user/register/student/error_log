@@ -1,0 +1,12 @@
+[09-Jun-2018 05:15:55 UTC] PHP Notice:  file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded in /home/kmunwebsite/public_html/2018/user/register/student/index.php on line 31
+[09-Jun-2018 07:16:58 UTC] PHP Notice:  file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded in /home/kmunwebsite/public_html/2018/user/register/student/index.php on line 31
+[09-Jun-2018 07:17:31 UTC] PHP Notice:  file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded in /home/kmunwebsite/public_html/2018/user/register/student/index.php on line 31
+[09-Jun-2018 07:25:28 UTC] PHP Notice:  file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded in /home/kmunwebsite/public_html/2018/user/register/student/index.php on line 31
+[15-Jun-2018 08:28:14 UTC] PHP Fatal error:  Uncaught exception 'Mailgun\Connection\Exceptions\MissingRequiredParameters' with message 'The parameters passed to the API were invalid. Check your inputs!' in /home/kmunwebsite/public_html/2018/user/req/mailgun-php/vendor/mailgun/mailgun-php/src/Mailgun/Connection/RestClient.php:128
+Stack trace:
+#0 /home/kmunwebsite/public_html/2018/user/req/mailgun-php/vendor/mailgun/mailgun-php/src/Mailgun/Connection/RestClient.php(91): Mailgun\Connection\RestClient->responseHandler(Object(Guzzle\Http\Message\Response))
+#1 /home/kmunwebsite/public_html/2018/user/req/mailgun-php/vendor/mailgun/mailgun-php/src/Mailgun/Mailgun.php(80): Mailgun\Connection\RestClient->post('kmun.in/message...', Array, Array)
+#2 /home/kmunwebsite/public_html/2018/user/req/mailgun-php/vendor/mailgun/mailgun-php/src/Mailgun/Mailgun.php(36): Mailgun\Mailgun->post('kmun.in/message...', Array, Array)
+#3 /home/kmunwebsite/public_html/2018/user/register/student/index.php(84): Mailgun\Mailgun->sendMessage('kmun.in', Array)
+#4 {main}
+  thrown in /home/kmunwebsite/public_html/2018/user/req/mailgun-php/vendor/mailgun/mailgun-php/src/Mailgun/Connection/RestClient.php on line 128

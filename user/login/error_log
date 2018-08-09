@@ -1,0 +1,14 @@
+[09-Jun-2018 05:16:30 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/kmunwebsite/public_html/2018/user/login/index.php on line 33
+[09-Jun-2018 07:17:15 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/kmunwebsite/public_html/2018/user/login/index.php on line 33
+[09-Jun-2018 07:17:47 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/kmunwebsite/public_html/2018/user/login/index.php on line 33
+[09-Jun-2018 07:22:51 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/kmunwebsite/public_html/2018/user/login/index.php on line 33
+[09-Jun-2018 07:25:48 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/kmunwebsite/public_html/2018/user/login/index.php on line 33
+[09-Jun-2018 13:30:12 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/kmunwebsite/public_html/2018/user/login/index.php on line 33
+[09-Jun-2018 13:42:17 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/kmunwebsite/public_html/2018/user/login/index.php on line 33
+[09-Jun-2018 13:52:09 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/kmunwebsite/public_html/2018/user/login/index.php on line 33
+[09-Jun-2018 13:53:49 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/kmunwebsite/public_html/2018/user/login/index.php on line 33
+[10-Jun-2018 02:11:46 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/kmunwebsite/public_html/2018/user/login/index.php on line 33
+[10-Jun-2018 16:35:06 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/kmunwebsite/public_html/2018/user/login/index.php on line 33
+[10-Jun-2018 17:44:04 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/kmunwebsite/public_html/2018/user/login/index.php on line 33
+[11-Jun-2018 06:21:22 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/kmunwebsite/public_html/2018/user/login/index.php on line 33
+[15-Jun-2018 07:37:24 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/kmunwebsite/public_html/testing/2018/user/login/index.php on line 18

@@ -1,0 +1,38 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<title>KMUN 2018</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+		$('document').ready(function() {
+			$('#submit').on('click', function(event) {
+				event.preventDefault();
+				
+				var password = $('#password').val();
+				if($.trim(password) == '') {
+					$('#error').html('Password cannot be empty!');
+				}
+				else {
+					$.ajax({
+						type : "POST",
+						url : "reset.php",
+						data : {password: password},
+						success: function(result) {
+							$('#error').html(result);
+						}
+					});
+				}
+			});
+		});
+	</script>
+	<style> form {text-align: center;}</style>
+</head>
+<body>
+	<form method = "post">
+		<input type = "password" name = "password" id = "pass" placeholder = "New Password" style = "padding: .4%;"/>&nbsp&nbsp
+		<span id = "error"></span><br /><br />
+		<input type = "submit" name = "submit" id = "submit" value = "Reset Password" />
+	</form>
+</body>
+</html>-->

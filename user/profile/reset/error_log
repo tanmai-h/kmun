@@ -1,0 +1,2 @@
+[21-Jun-2018 10:19:03 UTC] PHP Notice:  Undefined index: email in /home/kmunwebsite/public_html/2018/user/profile/reset/reset.php on line 8
+[21-Jun-2018 10:19:03 UTC] PHP Notice:  Undefined index: token in /home/kmunwebsite/public_html/2018/user/profile/reset/reset.php on line 9
